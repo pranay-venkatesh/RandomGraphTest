@@ -8,7 +8,7 @@ playerData = lasPlayers [,c("Points", "Wickets")]
 
 png(file = "DataCool.png")
 
-plot (x = playerData$Points, y = playerData$Wickets, xlab = "Points", ylab = "Wickets", main = "Hello World! Points v Wickets", type = "l")
+plot (x = playerData$Points, y = playerData$Wickets, xlab = "Points", ylab = "Wickets", main = "Hello World! Points v Wickets for a random Left Arm Spinner", type = "l")
 
 dev.off()
 
